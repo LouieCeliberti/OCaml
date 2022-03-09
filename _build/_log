@@ -1,0 +1,8 @@
+### Starting build.
+# Target: compilerRPGproject.ml.depends, tags: { extension:ml, file:compilerRPGproject.ml, ocaml, ocamldep, quiet }
+ocamldep.opt -modules compilerRPGproject.ml > compilerRPGproject.ml.depends
+# Target: compilerRPGproject.cmo, tags: { byte, compile, extension:cmo, extension:ml, file:compilerRPGproject.cmo, file:compilerRPGproject.ml, implem, ocaml, quiet }
+ocamlc.opt -c -o compilerRPGproject.cmo compilerRPGproject.ml
+# Target: compilerRPGproject.byte, tags: { byte, dont_link_with, extension:byte, file:compilerRPGproject.byte, link, ocaml, program, quiet }
+ocamlc.opt compilerRPGproject.cmo -o compilerRPGproject.byte
+# Compilation successful.

@@ -1,0 +1,4 @@
+"Resource: /Users/louisceliberti/Desktop/OCaml/compilerRPGproject.ml": "(\1864\255\221\t\137\012\240\193\203Cz\138d\200"
+"Rule: ocaml dependencies ml (%=compilerRPGproject )": "\231\178\155\191u\241\201s\234\131w\170\1722\128\167"
+"Rule: ocaml: ml -> cmo & cmi (%=compilerRPGproject )": "\226\144\244\199~\173\201\172\170f\023\193!\181\224\210"
+"Rule: ocaml: cmo* -> byte (%=compilerRPGproject )": "\238\022\168\131\141}\027k^Cg_Z\184\004\003"
